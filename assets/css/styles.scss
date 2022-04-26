@@ -1,0 +1,861 @@
+$poppins:'Poppins';
+$varela:'Varela Round';
+$color1:#1DB3DC;
+$color2:#15D7AC;
+$dark:#11111E;
+
+html {
+    font-size: 10px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    background-color: #000000;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(rgba(0, 0, 0, 0),
+            #30ff00);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0),
+            #00c6ff);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-image: linear-gradient(rgba(0, 0, 0, 0),
+            #ff0000);
+}
+
+
+.header {
+    .navbar {
+        .nav-item {
+            margin-right: 3rem;
+
+            .nav-link {
+                font-family: $poppins;
+                font-size: 1.5rem;
+                font-weight: 500;
+                color: #000;
+                line-height: 2rem;
+            }
+
+            .nav-link-primary {
+                color: $color1;
+            }
+        }
+
+        .btn-primary {
+            padding: 1rem 2rem;
+            font-family: $poppins;
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #fff;
+            line-height: 2rem;
+            background: rgb(29, 179, 220);
+            background: linear-gradient(270deg, rgba(29, 179, 220, 1) 0%, rgba(2, 130, 245, 1) 100%);
+        }
+    }
+}
+
+.hero {
+    background: url('../img/hero-bg.png');
+    background-size: cover;
+    min-height: 78.2rem;
+
+    h1 {
+        font-family: $poppins;
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: #fff;
+        line-height: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        font-family: $poppins;
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #fff;
+        line-height: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .btn-light {
+        display: inline-block;
+        color: $color1;
+        background: #fff;
+        padding: 1.5rem 3rem;
+        font-family: $poppins;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 2rem;
+
+    }
+}
+
+.service {
+    margin-top: -4rem;
+    background: url('../img/bg-1.png');
+    background-size: cover;
+    min-height: 102rem;
+
+    .card {
+        border: none;
+        background: $color2;
+        min-height: 41.7rem;
+        padding: 3rem;
+        border-radius: 0;
+        margin-bottom: 2rem;
+
+        .i-bg {
+            width: 70px;
+            height: 70px;
+            background: #fff;
+            border-radius: 50%;
+
+            i {
+                color: $color2;
+                font-size: 30px;
+                line-height: 42px;
+            }
+        }
+
+        .card-body {
+            padding: 0;
+
+            .card-title {
+                font-family: $poppins;
+                font-size: 2.5rem;
+                font-weight: 500;
+                line-height: 3.1rem;
+                color: #fff;
+                margin-top: 2rem;
+            }
+
+            .card-text {
+                font-family: $poppins;
+                font-size: 1.5rem;
+                font-weight: 400;
+                line-height: 3rem;
+                color: #fff;
+                margin-top: 2rem;
+            }
+        }
+    }
+
+    .card-2 {
+        background: $color1;
+
+        .i-bg {
+            i {
+                color: $color1;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+// carousel section
+.video-play {
+    margin-top: -62rem;
+
+
+    .owl-carousel {
+        background: transparent;
+        margin: 5rem 0;
+
+
+        .owl-item img {
+            display: block;
+            width: 9rem;
+        }
+
+        .owl-item {
+            padding-right: 2rem !important;
+            padding-left: 2rem !important;
+        }
+    }
+
+    .card {
+        padding: 0;
+
+        .card-body {
+            background: url('../img/Video.png') center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            img {
+                margin: 20rem auto;
+            }
+        }
+    }
+}
+
+// carousel section end
+
+.how-works {
+    margin-bottom: 5rem;
+
+    .container {
+        .row {
+
+            .d-flex {
+                img.liner {
+                    width: 5.1rem;
+                    margin-top: -2rem;
+
+                }
+
+                h5 {
+                    font-family: $poppins;
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    line-height: 4.3rem;
+                    color: $dark;
+                }
+
+                h3 {
+                    font-family: $poppins;
+                    font-size: 3.5rem;
+                    font-weight: 500;
+                    line-height: 4.3rem;
+                    color: $dark;
+                }
+
+                p {
+                    font-family: $poppins;
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    line-height: 2.7rem;
+                    color: #767984;
+                    width: 85%;
+                }
+
+                a {
+                    display: inline-block;
+                    color: $color1;
+                    border: 2px solid $color1;
+                    padding: 1.5rem 4rem;
+                    font-family: $poppins;
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    line-height: 2rem;
+                    width: 32%;
+                }
+            }
+
+        }
+    }
+}
+
+.tela {
+    background: url('../img/bg-big.png');
+    background-size: cover;
+    min-height: 248.5rem;
+
+    .container {
+        p {
+            font-family: $poppins;
+            font-size: 3rem;
+            font-weight: 500;
+            line-height: 6rem;
+            color: #11111E;
+        }
+
+        h2 {
+            font-family: $poppins;
+            font-size: 4.5rem;
+            font-weight: 700;
+            line-height: 6rem;
+            color: #11111E;
+            margin-top: -1rem;
+            margin-bottom: 4rem;
+
+            span {
+                color: $color1;
+            }
+        }
+
+        .card {
+            border: none;
+            min-height: 30.5rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            background: #fff;
+            box-shadow: 0 3rem 4rem rgba(125, 125, 125, 0.1);
+            border-radius: 0;
+
+            .card-body {
+
+                padding: 0;
+
+                .card-title {
+                    font-family: $poppins;
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 2.5rem;
+                    color: #11111E;
+
+                }
+
+                p {
+                    font-family: $poppins;
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    line-height: 2.5rem;
+                    color: #11111E;
+                }
+
+                i {
+                    width: 56px;
+                    height: 45px;
+                    font-size: 4.5rem;
+                    margin-bottom: 1rem;
+                    color: $color1;
+                }
+            }
+        }
+    }
+}
+
+.list-group-item {
+    background: transparent;
+}
+
+.price {
+    margin-top: -168rem;
+    margin-bottom: 3rem;
+
+    .container {
+        p {
+            font-family: $poppins;
+            font-size: 3rem;
+            font-weight: 500;
+            line-height: 6rem;
+            color: #11111E;
+        }
+
+        h2 {
+            font-family: $poppins;
+            font-size: 4.5rem;
+            font-weight: 700;
+            line-height: 6rem;
+            color: #11111E;
+            margin-top: -1rem;
+            margin-bottom: 4rem;
+        }
+
+        .row {
+            .card {
+                min-height: 92rem;
+                position: relative;
+
+                .most-p {
+                    position: absolute;
+                    top: 0;
+                    left: 20%;
+                    background: rgba(29, 179, 220, 0.06);
+                    width: 34.7rem;
+                    text-align: center;
+                    border-bottom-left-radius: 45px;
+                    border-bottom-right-radius: 45px;
+                    display: block;
+
+                    p {
+                        font-family: $poppins;
+                        font-size: 2.5rem;
+                        font-weight: 600;
+                        line-height: 5.5rem;
+                        color: #1DB3DC;
+                    }
+                }
+
+                .card-body {
+                    padding: 2rem;
+
+                    i {
+                        width: 57px;
+                        height: 65px;
+                        font-size: 6.5rem;
+                        margin-bottom: 2rem;
+                        color: $color1;
+                    }
+
+                    .card-subtitle {
+                        font-family: $poppins;
+                        font-size: 2.5rem;
+                        font-weight: 600;
+                        line-height: 5.5rem;
+                        color: #11111E;
+                    }
+
+                    .card-title {
+                        font-family: $poppins;
+                        font-size: 4.5rem;
+                        font-weight: 600;
+                        line-height: 5.5rem;
+                        color: $color1;
+
+
+                        span {
+                            font-family: $poppins;
+                            font-size: 2rem;
+                            font-weight: 600;
+                            line-height: 5.5rem;
+                            color: #11111E;
+                        }
+                    }
+
+                    .card-text {
+                        font-family: $poppins;
+                        font-size: 2.5rem;
+                        font-weight: 600;
+                        line-height: 5.5rem;
+                        color: #11111E;
+                    }
+
+                    .list-group {
+
+                        .list-group-item {
+                            border: none;
+                            padding: 0;
+
+                            i {
+                                width: 12px;
+                                height: 12px;
+                                font-size: 1.2rem;
+                                color: $color1;
+                                margin-right: 1rem;
+                            }
+
+                            span {
+                                font-family: $poppins;
+                                font-size: 1.2rem;
+                                font-weight: 400;
+                                line-height: 3.5rem;
+                                color: #11111E;
+                            }
+                        }
+                    }
+
+                    .card-link {
+                        display: block;
+                        color: #fff;
+                        background: $color1;
+                        padding: 1.5rem 3rem;
+                        font-family: $poppins;
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        line-height: 2rem;
+                        margin-top: 3rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.benifits {
+    .container {
+        p {
+            font-family: $poppins;
+            font-size: 3rem;
+            font-weight: 500;
+            line-height: 6rem;
+            color: #11111E;
+        }
+
+        h2 {
+            font-family: $poppins;
+            font-size: 4.5rem;
+            font-weight: 700;
+            line-height: 6rem;
+            color: #11111E;
+            margin-top: -1rem;
+            margin-bottom: 4rem;
+        }
+
+        .row {
+            margin-bottom: 4rem;
+
+            .list-group {
+
+                .list-group-item {
+                    border: none;
+                    padding: 0;
+                    margin-bottom: 4rem;
+
+                    i {
+                        width: 17px;
+                        height: 17px;
+                        font-size: 1.7rem;
+                        color: $color1;
+                        margin-right: 1rem;
+                    }
+
+                    span {
+                        font-family: $poppins;
+                        font-size: 1.5rem;
+                        font-weight: 400;
+                        line-height: 2.7rem;
+                        color: #11111E;
+                    }
+                }
+            }
+
+            h3 {
+                font-size: 2.5rem;
+                font-weight: 700;
+                line-height: 4rem;
+                font-family: $poppins;
+                margin-bottom: 3rem;
+            }
+
+            img {
+                border: 1.5rem solid rgba(29, 179, 220, 0.06);
+            }
+        }
+    }
+}
+
+.auto {
+    background: url('../img/path-5.png');
+    background-size: cover;
+    min-height: 100rem;
+    padding-top: 50rem;
+    margin-top: -51rem;
+
+    .container {
+        .row {
+            p {
+                font-family: $poppins;
+                font-size: 3rem;
+                font-weight: 500;
+                line-height: 5rem;
+                color: #11111E;
+            }
+
+            h2 {
+                font-family: $poppins;
+                font-size: 3.5rem;
+                font-weight: 700;
+                line-height: 5rem;
+                color: #11111E;
+                margin-top: -1rem;
+                margin-bottom: 4rem;
+            }
+
+            h4 {
+                font-family: $poppins;
+                font-size: 1.8rem;
+                font-weight: 700;
+                line-height: 4rem;
+                color: #11111E;
+            }
+
+            .list-group {
+
+                .list-group-item {
+                    border: none;
+                    padding: 0;
+                    margin-bottom: 2rem;
+
+                    i {
+                        width: 17px;
+                        height: 17px;
+                        font-size: 1.7rem;
+                        color: $color1;
+                        margin-right: 1rem;
+                    }
+
+                    span {
+                        font-family: $poppins;
+                        font-size: 1.5rem;
+                        font-weight: 400;
+                        line-height: 2.7rem;
+                        color: #11111E;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact {
+    .row {
+        min-height: 24.2rem;
+        text-align: left;
+
+        .left {
+            background: #1DB3DC;
+
+            a:hover {
+                background: #fff;
+                color: #1DB3DC;
+            }
+        }
+
+        .right {
+            background: #0282F5;
+
+            a:hover {
+                background: #fff;
+                color: #0282F5;
+            }
+        }
+
+        h5 {
+            font-family: $poppins;
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 7rem;
+            color: #fff;
+        }
+
+        p {
+            font-family: $poppins;
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 2.7rem;
+            color: #fff;
+
+        }
+
+        a {
+            font-family: $poppins;
+            font-size: 1.8rem;
+            font-weight: 700;
+            line-height: 4rem;
+            color: #fff;
+            border: 1.5px solid #fff;
+            padding: 1rem 3rem;
+            border-radius: 32px;
+            transition: .3s;
+        }
+
+    }
+}
+
+.pre-foot {
+    background: #1F1F1F;
+    padding: 4rem 0;
+
+    .container {
+        .social {
+            margin: 3rem 0;
+
+            a {
+                width: 5rem;
+                height: 5rem;
+                background: #2E2E2E;
+                margin-left: 1rem;
+
+                i {
+                    font-size: 1.6rem;
+                    line-height: 2.8rem;
+                    color: #BABABA;
+
+                }
+            }
+        }
+
+        hr {
+            background: #393939;
+            margin: 5rem auto;
+        }
+
+        .foot-menu {
+            li {
+                margin-right: 4rem;
+
+                a {
+                    font-family: $poppins;
+                    font-size: 1.8rem;
+                    font-weight: 400;
+                    line-height: 4.2rem;
+                    color: #BABABA;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    background: #000000;
+    min-height: 8.8rem;
+
+    .container {
+        p {
+            font-family: $poppins;
+            font-size: 1.6rem;
+            font-weight: 300;
+            line-height: 2.5rem;
+            color: #BABABA;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .video-play {
+        margin-top: -60rem;
+    }
+
+    .service {
+
+        .container,
+        .container-md,
+        .container-sm {
+            max-width: 992px;
+        }
+    }
+
+    .service .card .card-body .card-text {
+
+        font-size: 1.4rem;
+
+    }
+
+    .video-play .card .card-body img {
+        margin: 10rem auto;
+    }
+    .price .container .row .card .most-p {
+        position: absolute;
+        top: 0;
+        left: 20%;
+        background: rgba(29, 179, 220, 0.06);
+        width: 20rem;
+        text-align: center;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        display: block;
+    }
+    .tela .container .card .card-body .card-title {
+        font-family: "Poppins";
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 2.5rem;
+        color: #11111E;
+    }
+    .contact .row h5 {
+        font-family: "Poppins";
+        font-size: 1.6rem;
+        
+    }
+    .contact .row p{
+        font-size: 1.2rem;
+    }
+    .contact .row a{
+        font-size: 1.5rem;
+    }
+    .pre-foot .container .foot-menu li a{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+html{
+    font-size: 10px;
+}
+.video-play {
+    margin-top: 0;
+}
+.service .card{
+    min-height: 29rem;
+}
+.how-works .container .row .d-flex img.liner {
+    margin-top: 0rem;
+}
+.how-works .container .row .d-flex a{
+    width: 33%;
+    margin-bottom: 2rem;
+}
+.tela .container .card .card-body .card-title {
+    font-family: "Poppins";
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    color: #11111E;
+}
+
+.tela .container .card {
+    border: none;
+    min-height: 16.5rem;}
+
+.price {
+    margin-top: -74rem;
+    margin-bottom: 3rem;
+}
+p{
+    width: 100% !important;
+}
+.contact .row p{
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 376px){
+    
+    .service{
+        margin-top: 4rem;
+    }
+    .hero{
+        min-height: 86rem;
+        width: 100%;
+    }
+    
+    .container{
+        width: 98%;
+    }
+    .offset-1 {
+        margin-left: 0;
+    }
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .row {
+       
+
+         margin-right:0 !important; 
+         margin-left: 0 !important; 
+         overflow-x: hidden;
+    }
+
+    .how-works .container .row .d-flex a{
+        padding:1rem 1rem;
+    }
+    .how-works .container .row .d-flex img.liner {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
+    .foot-menu{
+        .d-inline-block{
+            display: block !important;
+        }
+    }
+}
+
